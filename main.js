@@ -7,20 +7,20 @@ document.getElementById("num2-el").textContent = num2;
 
 function add () {
   addSum = num1 + num2;
-  document.getElementById("sum-el").textContent = addSum;
+  document.getElementById("sum-el").textContent = "Sum: " + addSum;
 };
 
 function subtract () {
   subSum = num1 - num2;
-  document.getElementById("sum-el").textContent = subSum;
+  document.getElementById("sum-el").textContent = "Sum: " + subSum;
 };
 
 function divide () {
   divSum = num1 / num2;
-  document.getElementById("sum-el").textContent = divSum;
+  document.getElementById("sum-el").textContent = "Sum: " + divSum;
 };
 
 function multiply () {
   mulSum = num1 * num2;
-  document.getElementById("sum-el").textContent = mulSum;
+  document.getElementById("sum-el").textContent = "Sum: " + mulSum;
 };
